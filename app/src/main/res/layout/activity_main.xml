@@ -5,29 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_move_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pindah_activity"
-        android:gravity="center"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="#ffffff"
         android:layout_marginBottom="16dp"
-        />
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/pindah_activity"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/btn_move_with_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pindah_activity_dengan_data"
-        android:gravity="center"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="#ffffff"
         android:layout_marginBottom="16dp"
-        />
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/pindah_activity_dengan_data"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/dial_a_number"
+        android:textColor="#ffffff" />
 
 </LinearLayout>
